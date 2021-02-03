@@ -171,7 +171,7 @@ body{
 @media screen and (max-width:480px){
     .cont-main{
         background-color:rgb(235, 233, 233);
-        width: 90%;
+        width: 95%;
         /* min-height: 50vh; */
         margin: auto;
         /* border: 1px solid red; */
@@ -191,6 +191,12 @@ body{
         border-radius: 4px;
         margin-top: 10px;
     }
+    .form-name{
+        width: 170px;
+    }
+    .form-number{
+        width: 130px;
+    }
     .form-button{
         border: 1px solid rgb(199, 194, 194);
         margin-left: 5px;
@@ -203,20 +209,20 @@ body{
     .cont-div{
         /* border: 1px solid red; */
         margin: 5px;
-        width: 400px;
+        width: 350px;
         height: 40px;
         display: grid;
         grid-template-columns: 2fr 2fr 1fr 1fr;
     }
     .cont-name{
-        width: 160px;
+        width: 170px;
     }
     .cont-number{
-        width: 150px;
+        width: 120px;
     }
     .cont-delete, .cont-edit{
         /* border: 1px solid black; */
-        width: 40px;
+        width: 35px;
         border-radius: 5px;
         /* border: none; */
         outline: none;
