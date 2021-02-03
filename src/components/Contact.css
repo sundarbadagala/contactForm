@@ -195,7 +195,7 @@ body{
         width: 170px;
     }
     .form-number{
-        width: 130px;
+        width: 140px;
     }
     .form-button{
         border: 1px solid rgb(199, 194, 194);
@@ -209,7 +209,7 @@ body{
     .cont-div{
         /* border: 1px solid red; */
         margin: 5px;
-        width: 350px;
+        width: 370px;
         height: 40px;
         display: grid;
         grid-template-columns: 2fr 2fr 1fr 1fr;
