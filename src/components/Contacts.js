@@ -2,10 +2,6 @@ import React, { useState } from 'react'
 import './Contact.css'
 
 function Form2() {
-    // const [searchButton, setSearchButton]= useState(false)
-    // const [searchNameList, setSearchNameList]= useState([])
-    // const [editBtn, setEditBtn]= useState('cont-edit')
-    // const [search, setSearch]= useState('')
     const [change, setChange]= useState(false)
     const [Name, setName]= useState({name:'', number:''})
     const [nameList, setNameList]= useState([])
@@ -40,12 +36,6 @@ function Form2() {
     const changeEdit=()=>{
         setChange(!change)
     }
-    // const searchName=()=>{
-    //     const searchName= nameList.filter(item => item.name === search)
-    //     setSearchNameList([...searchNameList, searchName])
-    //     setSearchButton(!searchButton)
-        
-    // }
     return (
         <div className='cont-main'>
             <div className='cont-title'>Contact Manager</div>
@@ -74,7 +64,6 @@ function Form2() {
             
             <ul className='cont-menu'>
             {
-                // searchButton? searchNameList :
                 nameList.map(item=> 
                     <li className='cont-list'>
                     <div key={item.key} className='cont-div'>
